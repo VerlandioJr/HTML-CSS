@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            medidas Absolutas: cm, mm, in, px, pt, pc
+
+            medidas Relativas: em, ex, rem, vw, vh, %
+            Utilizar por recomendação: px e em.
+            obs: 16px geralmente = 1em.
+            */
+            /*font-size: 16px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;*/
+            /*lighter normal bold bolder*/
+           
+            /*
+            weight = peso; width = largura; height = altura;
+            */
+        }
+        h1{
+           /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* Podemos usar Shorthand font para substituir as 4 linhas acima por um linha só.
+            Ordem: font: font-style -> font- weight -> font-size -> font-family; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+<h1>Trabalhando com fontes</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nobis eveniet tempore minus voluptatibus accusamus, repellendus laboriosam cumque minima quam nostrum eaque accusantium quas sunt reprehenderit quos eos. Tenetur, animi?</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque libero enim voluptas quod, consequatur assumenda perferendis quisquam repudiandae suscipit recusandae quos repellendus velit illo, magnam aut quaerat itaque id consectetur.</p>
+<h2>Subtitulo do exercicio</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi ut illo labore iure? Voluptas aspernatur quaerat aliquid consequatur quisquam optio quo saepe vero mollitia corrupti! Saepe, at nostrum. Deserunt, nesciunt.</p>
+</body>
+</html>
