@@ -20,9 +20,18 @@
             background-color: gray;
             color: white;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         .numero{
             text-align: right;
             vertical-align: middle;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(186, 181, 181);
         }
         tfoot{
             background-color: gray;
@@ -35,11 +44,12 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:100px;">População</th>
             </tr>
         </thead>
         <tbody>
+            <caption>População das Unidades Federais.</caption>
             <tr>
                 <td>São Paulo</td>
                 <td class="numero">46 081 801</td>
@@ -151,7 +161,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero"><strong>213 421 037</strong></td>
             </tr>
         </tfoot>
