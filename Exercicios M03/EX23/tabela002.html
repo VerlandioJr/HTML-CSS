@@ -11,12 +11,19 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
-        thead{
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 1px;
             background-color: gray;
             color: white;
         }
@@ -32,10 +39,6 @@
         }
         tbody > tr:nth-child(2n){
             background-color: rgb(186, 181, 181);
-        }
-        tfoot{
-            background-color: gray;
-            color: white;
         }
     </style>
 </head>
@@ -165,6 +168,14 @@
                 <td class="numero"><strong>213 421 037</strong></td>
             </tr>
         </tfoot>
+    </table>
+    <table>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ad illum dolor fuga aliquid magnam, libero inventore tempora incidunt sunt reprehenderit minus ducimus voluptate eos placeat cupiditate iure? A, velit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem quaerat animi. Sed nesciunt dolore aperiam hic quaerat asperiores id, nostrum ratione laborum voluptas atque fuga reiciendis voluptatum, et natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nisi dicta error consequatur laboriosam quos rerum alias ab incidunt, amet illo sunt sapiente ratione, deleniti inventore ex, sint reprehenderit quisquam.</p>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ad illum dolor fuga aliquid magnam, libero inventore tempora incidunt sunt reprehenderit minus ducimus voluptate eos placeat cupiditate iure? A, velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem quaerat animi. Sed nesciunt dolore aperiam hic quaerat asperiores id, nostrum ratione laborum voluptas atque fuga reiciendis voluptatum, et natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nisi dicta error consequatur laboriosam quos rerum alias ab incidunt, amet illo sunt sapiente ratione, deleniti inventore ex, sint reprehenderit quisquam.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ad illum dolor fuga aliquid magnam, libero inventore tempora incidunt sunt reprehenderit minus ducimus voluptate eos placeat cupiditate iure? A, velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem quaerat animi. Sed nesciunt dolore aperiam hic quaerat asperiores id, nostrum ratione laborum voluptas atque fuga reiciendis voluptatum, et natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nisi dicta error consequatur laboriosam quos rerum alias ab incidunt, amet illo sunt sapiente ratione, deleniti inventore ex, sint reprehenderit quisquam.</p>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ad illum dolor fuga aliquid magnam, libero inventore tempora incidunt sunt reprehenderit minus ducimus voluptate eos placeat cupiditate iure? A, velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem quaerat animi. Sed nesciunt dolore aperiam hic quaerat asperiores id, nostrum ratione laborum voluptas atque fuga reiciendis voluptatum, et natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nisi dicta error consequatur laboriosam quos rerum alias ab incidunt, amet illo sunt sapiente ratione, deleniti inventore ex, sint reprehenderit quisquam.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ad illum dolor fuga aliquid magnam, libero inventore tempora incidunt sunt reprehenderit minus ducimus voluptate eos placeat cupiditate iure? A, velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod autem quaerat animi. Sed nesciunt dolore aperiam hic quaerat asperiores id, nostrum ratione laborum voluptas atque fuga reiciendis voluptatum, et natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nisi dicta error consequatur laboriosam quos rerum alias ab incidunt, amet illo sunt sapiente ratione, deleniti inventore ex, sint reprehenderit quisquam.</p>
+
     </table>
 </body>
 </html>
