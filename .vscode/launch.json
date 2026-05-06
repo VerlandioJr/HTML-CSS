@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
+
         
         
         
@@ -14,7 +15,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open form004.html",
-            "file": "c:\\Users\\junio\\OneDrive\\Documentos\\PASTA HTML\\HTML-CSS\\Exercicios M04\\EX25\\form005.html"
+            "file": "c:\\Users\\junio\\OneDrive\\Documentos\\PASTA HTML\\HTML-CSS\\Exercicios M04\\EX25\\form006.html"
         }
     ]
 }
