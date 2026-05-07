@@ -4,6 +4,14 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+    },
+    
 
 
 
@@ -14,10 +22,8 @@
         
         
         {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Open form004.html",
-            "file": "c:\\Users\\junio\\OneDrive\\Documentos\\PASTA HTML\\HTML-CSS\\Exercicios M04\\EX25\\form008.html"
+           
+            
         }
     ]
 }
