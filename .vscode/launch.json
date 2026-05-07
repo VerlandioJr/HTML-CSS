@@ -7,9 +7,10 @@
     {
         "name": "Attach to Chrome",
         "port": 9222,
-        "request": "attach",
-        "type": "chrome",
-        "file": "${workspaceFolderBasename}/index.html"
+        "request": "launch",
+        "type": "pwa-chrome",
+        "file": "${file}",
+        "webRoot": "${workspaceFolder}"
     },
     
 
