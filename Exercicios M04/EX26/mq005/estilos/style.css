@@ -15,7 +15,7 @@ header{
 }
 
 header h1{
-    padding: 0px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ span#burguer{
     background-color: rgb(54, 53, 53);
     color: white;
     display: block;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     cursor: pointer;
 }
@@ -42,6 +42,8 @@ menu >ul{
 menu > ul > li > a{
     display: block;
     padding: 10px;
+    margin-left: 2px;
+    margin-right: 0px;
     text-decoration: none;
     background-color: rgb(87, 87, 87);
     text-align: center;
@@ -56,8 +58,8 @@ menu > ul > li > a:hover{
 main{
     width: 90vw;
     background-color: white;
-    margin-top: 10px;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
