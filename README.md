@@ -1,5 +1,5 @@
 # HTML-CSS
-Exercicios do curso de HTML e CSS
+Exercicios do curso de HTML e CSS - Feitos por Verlandio Junior
 
 <a href="https://verlandiojr.github.io/HTML-CSS/projetocordel/index.html" target="_blank">Executar exercício Projeto Cordel</a><br>
 <a href="https://verlandiojr.github.io/Mini-projeto/miniprojeto.html" target="_blank">Executar Mini Projeto Android</a><br>
