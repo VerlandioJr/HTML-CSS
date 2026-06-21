@@ -5,5 +5,5 @@ Exercicios do curso de HTML e CSS
 <a href="https://verlandiojr.github.io/Mini-projeto/miniprojeto.html">Executar Mini Projeto Android</a><br>
 <a href="https://verlandiojr.github.io/mq002/index.html">Executar exercício de orientação de tela</a><br>
 <a href="https://verlandiojr.github.io/exercicio-media-query/index.html">Executar exercício Media Query</a><br>
-<a href="https://verlandiojr.github.io/projeto-redesocial/index.html">Executar Projeto Redes Sociais</a>
+<a href="https://verlandiojr.github.io/projeto-redesocial/index.html">Executar Projeto Redes Sociais</a><br>
 <a href="https://verlandiojr.github.io/projeto-login/">Executar Projeto Tela de Login</a>
