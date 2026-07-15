@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-basis</title>
+    <style>
+        div.container{
+            display: flex;
+            background-color: #de9b9b;
+            flex-flow: row nowrap;
+        }
+        div.item{
+            background-color: #9bde9b;
+            border: 1px solid #000;
+            text-align: center;
+            flex-basis: 150px;
+        }
+
+        @media screen and (min-width: 768px) {
+            
+            .item{
+                flex-basis: 151px;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Abertura</div>
+        <div class="item" id="i2">Bases</div>
+        <div class="item" id="i3">Cardigan</div>
+        <div class="item" id="i4">Dirigivel</div>
+    </div>
+</body>
+</html>
