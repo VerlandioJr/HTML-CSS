@@ -6,16 +6,21 @@
     <title>Grid Layout na prática</title>
     <style>
         div.container{
-            border: 3px solid blue;
+            border: 3px dotted blue;
             display: grid;
             height: 250px;
             grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto auto;
-            gap: 5px;
+            grid-template-rows: 50px 50px 50px;
+            
+            align-items: stretch;
+            justify-items: stretch;
+            align-content: stretch;
+            justify-content: stretch;
         }
         
         div.item{
             border: 3px solid red;
+            background-color: yellow;
             text-align: center;
         }
     </style>
@@ -29,8 +34,6 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
-        <div class="item">H</div>
-        <div class="item">I</div>
     </div>
 </body>
 </html>
